@@ -1,5 +1,6 @@
 # Jupyter Notebook
 .ipyb_checkpoints
+src/.ipynb_checkpoints/
 
 # Byte-compiled
 __pycache__/
