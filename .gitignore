@@ -6,4 +6,4 @@ src/.ipynb_checkpoints/
 __pycache__/
 
 # Client authentication
-/client_auth.py
+src/client_auth.py
