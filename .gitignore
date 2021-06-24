@@ -4,3 +4,5 @@
 # Byte-compiled
 __pycache__/
 
+# Client authentication
+/client_auth.py
