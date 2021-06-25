@@ -7,3 +7,9 @@ __pycache__/
 
 # Client authentication
 src/client_auth.py
+
+# bq-helper
+src/src/bq-helper
+
+# Json files
+*.json 
