@@ -31,9 +31,9 @@ def convert_to_csv():
     with xlrd.open_workbook(excel_file) as excel_workbook:
         for sheet_name in excel_workbook.sheet_names():
             excel_worksheet = excel_workbook.sheet_by_name(sheet_name)
-            csv_filename = "sc-est2019-agesex-test.csv" #"census" + sheet_name + ".csv"
+            csv_filename = "est14us.csv" #"census" + sheet_name + ".csv"
             # csv_filename.replace("-", "_")
-            csv_file = input_folder + csv_filename
+            csv_file = '../data/cleaned_csv/' + csv_filename
             with open(csv_file, 'w') as open_csv:
                 write_to_csv = csv.writer(open_csv, quoting=csv.QUOTE_ALL)
                 for rows in range(excel_worksheet.nrows):
@@ -45,5 +45,5 @@ def convert_to_csv():
 if __name__ == "__main__":
     # os.chdir("..")
     input_folder = "../data/"
-    excel_file = retrive_excel_file(filename="sc-est2019-agesex-test.xls")
+    excel_file = retrive_excel_file(filename="est14us.xls")
     convert_to_csv()
