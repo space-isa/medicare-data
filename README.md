@@ -27,10 +27,13 @@ Install before use:
 --- 
 
 ## How to use
-A Jupyter notebook can be found in the ```/src``` directory. 
+A Jupyter analysis notebook ```medicare_data_analysis.ipynb``` can be found in the ```/src``` directory. 
+
 Datasets imported by csv can be found in the ```/data/input``` directory.
+
 Datasets saved after processing can be found in the ```/data/output/``` direcotry.
 
+Tableau workbooks can be found in ```/docs/Tableau/```.
 
 ---
 
