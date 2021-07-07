@@ -1,12 +1,13 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
 <!-- build 20211.21.0320.1853                               -->
-<workbook source-build='2021.1.0 (20211.21.0320.1853)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<workbook source-build='2021.1.0 (20211.21.0320.1853)' source-platform='mac' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <AutoCreateAndUpdateDSDPhoneLayouts />
     <MapboxVectorStylesAndLayers />
     <_.fcp.MarkAnimation.true...MarkAnimation />
     <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
     <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
     <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
     <_.fcp.SetMembershipControl.true...SetMembershipControl />
@@ -16,6 +17,7 @@
     <WorksheetBackgroundTransparency />
     <ZoneBackgroundTransparency />
   </document-format-change-manifest>
+  <repository-location id='medicare-bivariate-maps' path='/workbooks' revision='1.0' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -25,10 +27,10 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='state_med_estpop_income_2014' name='textscan.12lbygu1gv7oes0zt80ug1aaufbe'>
-            <connection class='textscan' directory='/Users/Isabel/Documents/Git/medicare-data/data/output' filename='state_med_estpop_income_2014.csv' password='' server='' />
+            <connection class='textscan' directory='/Users/Isabel/Documents/Git/medicare-data/data/output' filename='state_med_estpop_income_2014.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
           <named-connection caption='state_data_over_65_2014' name='textscan.0ra4ab40m8e8ej12ydhug1qxxbf9'>
-            <connection class='textscan' directory='/Users/Isabel/Documents/Git/medicare-data/data/output' filename='state_data_over_65_2014.csv' password='' server='' />
+            <connection class='textscan' directory='/Users/Isabel/Documents/Git/medicare-data/data/output' filename='state_data_over_65_2014.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0ra4ab40m8e8ej12ydhug1qxxbf9' name='state_data_over_65_2014.csv' table='[state_data_over_65_2014#csv]' type='table'>
@@ -117,6 +119,7 @@
           <map key='[Two or More Races (%)]' value='[state_data_over_65_2014.csv].[Two or More Races (%)]' />
           <map key='[White (%)]' value='[state_data_over_65_2014.csv].[White (%)]' />
         </cols>
+        <refresh increment-key='' incremental-updates='false' />
         <metadata-records>
           <metadata-record class='capability'>
             <remote-name />
@@ -608,6 +611,429 @@
           <folder-item name='[Calculation_706009671862513668]' type='field' />
         </folder>
       </_.fcp.SchemaViewerObjectModel.true...folders-common>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='/Users/Isabel/Documents/My Tableau Repository/Datasources/state_med_estpop_income_2014.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34' table='[Extract].[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+            <relation name='state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF' table='[Extract].[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]' type='table' />
+            <relation name='state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34' table='[Extract].[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]' type='table' />
+          </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+          <cols>
+            <map key='[Asian (%)]' value='[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34].[Asian (%)]' />
+            <map key='[Black (%)]' value='[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34].[Black (%)]' />
+            <map key='[F1 (state_data_over_65_2014.csv)]' value='[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34].[F1]' />
+            <map key='[F1]' value='[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF].[F1]' />
+            <map key='[Female (%)]' value='[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34].[Female (%)]' />
+            <map key='[Hispanic (%)]' value='[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34].[Hispanic (%)]' />
+            <map key='[Inpatient cost per 10k]' value='[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF].[Inpatient cost per 10k]' />
+            <map key='[Inpatient total payments (avg)]' value='[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF].[Inpatient total payments (avg)]' />
+            <map key='[Male (%)]' value='[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34].[Male (%)]' />
+            <map key='[Median Household Income]' value='[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF].[Median Household Income]' />
+            <map key='[Native American (%)]' value='[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34].[Native American (%)]' />
+            <map key='[Native Hawaiian and Pacific Islander (%)]' value='[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34].[Native Hawaiian and Pacific Islander (%)]' />
+            <map key='[Number of prescriptions]' value='[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF].[Number of prescriptions]' />
+            <map key='[Outpatient cost per 1k]' value='[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF].[Outpatient cost per 1k]' />
+            <map key='[Outpatient total payments (avg)]' value='[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF].[Outpatient total payments (avg)]' />
+            <map key='[Percent of total prescriptions]' value='[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF].[Percent of total prescriptions]' />
+            <map key='[Population over 65 (state_data_over_65_2014.csv)]' value='[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34].[Population over 65]' />
+            <map key='[Population over 65]' value='[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF].[Population over 65]' />
+            <map key='[Postal Code]' value='[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF].[Postal Code]' />
+            <map key='[Poverty Percent, All Ages]' value='[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF].[Poverty Percent, All Ages]' />
+            <map key='[State]' value='[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34].[State]' />
+            <map key='[Top prescription]' value='[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF].[Top prescription]' />
+            <map key='[Total discharges]' value='[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF].[Total discharges]' />
+            <map key='[Total drug cost 65+]' value='[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF].[Total drug cost 65+]' />
+            <map key='[Total outpatient services]' value='[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF].[Total outpatient services]' />
+            <map key='[Total prescriptions 65+ (Medicare D)]' value='[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF].[Total prescriptions 65+ (Medicare D)]' />
+            <map key='[Total prescriptions per 100k]' value='[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF].[Total prescriptions per 100k]' />
+            <map key='[Two or More Races (%)]' value='[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34].[Two or More Races (%)]' />
+            <map key='[White (%)]' value='[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34].[White (%)]' />
+          </cols>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>state_med_estpop_income_2014.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Postal Code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Postal Code]</local-name>
+              <parent-name>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</parent-name>
+              <remote-alias>Postal Code</remote-alias>
+              <ordinal>1</ordinal>
+              <family>state_med_estpop_income_2014.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Population over 65</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Population over 65]</local-name>
+              <parent-name>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</parent-name>
+              <remote-alias>Population over 65</remote-alias>
+              <ordinal>2</ordinal>
+              <family>state_med_estpop_income_2014.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total discharges</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total discharges]</local-name>
+              <parent-name>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</parent-name>
+              <remote-alias>Total discharges</remote-alias>
+              <ordinal>3</ordinal>
+              <family>state_med_estpop_income_2014.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Inpatient total payments (avg)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Inpatient total payments (avg)]</local-name>
+              <parent-name>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</parent-name>
+              <remote-alias>Inpatient total payments (avg)</remote-alias>
+              <ordinal>4</ordinal>
+              <family>state_med_estpop_income_2014.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Inpatient cost per 10k</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Inpatient cost per 10k]</local-name>
+              <parent-name>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</parent-name>
+              <remote-alias>Inpatient cost per 10k</remote-alias>
+              <ordinal>5</ordinal>
+              <family>state_med_estpop_income_2014.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total outpatient services</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Total outpatient services]</local-name>
+              <parent-name>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</parent-name>
+              <remote-alias>Total outpatient services</remote-alias>
+              <ordinal>6</ordinal>
+              <family>state_med_estpop_income_2014.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Outpatient total payments (avg)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Outpatient total payments (avg)]</local-name>
+              <parent-name>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</parent-name>
+              <remote-alias>Outpatient total payments (avg)</remote-alias>
+              <ordinal>7</ordinal>
+              <family>state_med_estpop_income_2014.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Outpatient cost per 1k</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Outpatient cost per 1k]</local-name>
+              <parent-name>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</parent-name>
+              <remote-alias>Outpatient cost per 1k</remote-alias>
+              <ordinal>8</ordinal>
+              <family>state_med_estpop_income_2014.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total prescriptions 65+ (Medicare D)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total prescriptions 65+ (Medicare D)]</local-name>
+              <parent-name>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</parent-name>
+              <remote-alias>Total prescriptions 65+ (Medicare D)</remote-alias>
+              <ordinal>9</ordinal>
+              <family>state_med_estpop_income_2014.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total prescriptions per 100k</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Total prescriptions per 100k]</local-name>
+              <parent-name>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</parent-name>
+              <remote-alias>Total prescriptions per 100k</remote-alias>
+              <ordinal>10</ordinal>
+              <family>state_med_estpop_income_2014.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total drug cost 65+</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Total drug cost 65+]</local-name>
+              <parent-name>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</parent-name>
+              <remote-alias>Total drug cost 65+</remote-alias>
+              <ordinal>11</ordinal>
+              <family>state_med_estpop_income_2014.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Top prescription</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Top prescription]</local-name>
+              <parent-name>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</parent-name>
+              <remote-alias>Top prescription</remote-alias>
+              <ordinal>12</ordinal>
+              <family>state_med_estpop_income_2014.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Number of prescriptions</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Number of prescriptions]</local-name>
+              <parent-name>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</parent-name>
+              <remote-alias>Number of prescriptions</remote-alias>
+              <ordinal>13</ordinal>
+              <family>state_med_estpop_income_2014.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Percent of total prescriptions</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Percent of total prescriptions]</local-name>
+              <parent-name>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</parent-name>
+              <remote-alias>Percent of total prescriptions</remote-alias>
+              <ordinal>14</ordinal>
+              <family>state_med_estpop_income_2014.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Poverty Percent, All Ages</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Poverty Percent, All Ages]</local-name>
+              <parent-name>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</parent-name>
+              <remote-alias>Poverty Percent, All Ages</remote-alias>
+              <ordinal>15</ordinal>
+              <family>state_med_estpop_income_2014.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>39</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Median Household Income</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Median Household Income]</local-name>
+              <parent-name>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</parent-name>
+              <remote-alias>Median Household Income</remote-alias>
+              <ordinal>16</ordinal>
+              <family>state_med_estpop_income_2014.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F1 (state_data_over_65_2014.csv)]</local-name>
+              <parent-name>[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>17</ordinal>
+              <family>state_data_over_65_2014.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State]</local-name>
+              <parent-name>[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]</parent-name>
+              <remote-alias>State</remote-alias>
+              <ordinal>18</ordinal>
+              <family>state_data_over_65_2014.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Population over 65</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Population over 65 (state_data_over_65_2014.csv)]</local-name>
+              <parent-name>[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]</parent-name>
+              <remote-alias>Population over 65</remote-alias>
+              <ordinal>19</ordinal>
+              <family>state_data_over_65_2014.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Male (%)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Male (%)]</local-name>
+              <parent-name>[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]</parent-name>
+              <remote-alias>Male (%)</remote-alias>
+              <ordinal>20</ordinal>
+              <family>state_data_over_65_2014.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Female (%)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Female (%)]</local-name>
+              <parent-name>[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]</parent-name>
+              <remote-alias>Female (%)</remote-alias>
+              <ordinal>21</ordinal>
+              <family>state_data_over_65_2014.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>White (%)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[White (%)]</local-name>
+              <parent-name>[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]</parent-name>
+              <remote-alias>White (%)</remote-alias>
+              <ordinal>22</ordinal>
+              <family>state_data_over_65_2014.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Black (%)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Black (%)]</local-name>
+              <parent-name>[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]</parent-name>
+              <remote-alias>Black (%)</remote-alias>
+              <ordinal>23</ordinal>
+              <family>state_data_over_65_2014.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Native American (%)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Native American (%)]</local-name>
+              <parent-name>[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]</parent-name>
+              <remote-alias>Native American (%)</remote-alias>
+              <ordinal>24</ordinal>
+              <family>state_data_over_65_2014.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Asian (%)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Asian (%)]</local-name>
+              <parent-name>[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]</parent-name>
+              <remote-alias>Asian (%)</remote-alias>
+              <ordinal>25</ordinal>
+              <family>state_data_over_65_2014.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Native Hawaiian and Pacific Islander (%)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Native Hawaiian and Pacific Islander (%)]</local-name>
+              <parent-name>[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]</parent-name>
+              <remote-alias>Native Hawaiian and Pacific Islander (%)</remote-alias>
+              <ordinal>26</ordinal>
+              <family>state_data_over_65_2014.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Two or More Races (%)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Two or More Races (%)]</local-name>
+              <parent-name>[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]</parent-name>
+              <remote-alias>Two or More Races (%)</remote-alias>
+              <ordinal>27</ordinal>
+              <family>state_data_over_65_2014.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hispanic (%)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Hispanic (%)]</local-name>
+              <parent-name>[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]</parent-name>
+              <remote-alias>Hispanic (%)</remote-alias>
+              <ordinal>28</ordinal>
+              <family>state_data_over_65_2014.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
       <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='false' />
       <style>
         <style-rule element='mark'>
@@ -726,6 +1152,9 @@
                 </columns>
               </relation>
             </properties>
+            <properties context='extract'>
+              <relation name='state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34' table='[Extract].[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]' type='table' />
+            </properties>
           </object>
           <object caption='state_med_estpop_income_2014.csv' id='state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF'>
             <properties context=''>
@@ -750,6 +1179,9 @@
                   <column datatype='real' name='Median Household Income' ordinal='16' />
                 </columns>
               </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF' table='[Extract].[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]' type='table' />
             </properties>
           </object>
         </objects>
@@ -1513,7 +1945,7 @@
                 <value>18.399999999999999</value>
                 <value>215380.31392221764</value>
                 <value>&quot;POLYGON((-77.1198 38.9343,-77.041 38.9956,-76.9094 38.8929,-77.0394 38.7916,-77.048 38.8413,-77.0405 38.8713,-77.1198 38.9343))&quot;</value>
-                <value>38.91</value>
+                <value>38.909999999999997</value>
                 <value>-77.0</value>
               </tuple>
             </tuple-reference>
@@ -2485,11 +2917,11 @@
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='1500' minheight='1500' sizing-mode='vscroll' />
+          <size maxheight='1600' minheight='1600' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='27' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='97916' id='26' param='vert' w='98438' x='781' y='1042'>
-                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='13281' id='16' w='55762' x='781' y='8854'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='31' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='97916' id='30' param='vert' w='98438' x='781' y='1042'>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='15495' id='16' w='69336' x='1172' y='2734'>
                   <formatted-text>
                     <run fontname='Tableau Light' fontsize='20'>In 2014, Southern states had the</run>
                     <run bold='true' fontcolor='#170063' fontname='Tableau Light' fontsize='20'>Æ </run>
@@ -2514,7 +2946,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='65495' id='9' is-fixed='true' name='Lower 48' w='72754' x='2637' y='19661'>
+                <zone fixed-size='280' h='65495' id='9' is-fixed='true' name='Lower 48' w='72754' x='879' y='19141'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2523,7 +2955,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='25781' id='14' w='20996' x='75098' y='27734'>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='32552' id='14' w='21680' x='74512' y='27344'>
                   <formatted-text>
                     <run fontalignment='2' fontsize='11'>States with a median income above $61,000 tend to have </run>
                     <run bold='true' fontalignment='2' fontcolor='#a7acad' fontname='Tableau Semibold' fontsize='11'>lower</run>
@@ -2653,6 +3085,30 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='5469' id='28' w='67090' x='3809' y='94401'>
+                  <formatted-text>
+                    <run fontname='Tableau Semibold' fontsize='8'>@</run>
+                    <run fontname='Tableau Semibold'>astrophisacist</run>
+                    <run> | </run>
+                    <run fontcolor='#898989' fontsize='8'>Aggregated data sources: Centers for Medicare &amp; Medicade Services (2014), US Census Bureau (2014)</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' fixed-size='34' forceUpdate='true' h='4427' id='29' is-centered='0' is-fixed='true' is-scaled='1' param='/Users/Isabel/Downloads/twitter-circle.png' w='5859' x='684' y='94922'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
               </zone>
               <zone-style>
                 <format attr='border-color' value='#000000' />
@@ -2737,8 +3193,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='12' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='97916' id='11' param='vert' w='98438' x='781' y='1042'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='14' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='97916' id='13' param='vert' w='98438' x='781' y='1042'>
                 <zone fixed-size='280' h='97526' id='3' is-fixed='true' name='KY profile' w='98145' x='684' y='1302'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2760,7 +3216,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='21484' id='8' w='30469' x='61035' y='35807'>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='21484' id='8' w='30469' x='10645' y='64193'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#606b76' fontsize='18'>State inpatient costs </run>
                     <run fontalignment='1'>Æ&#10;</run>
@@ -2858,7 +3314,7 @@
       <simple-id uuid='{2AAAFF73-2D62-41AF-A9AA-8139E23769DD}' />
     </dashboard>
   </dashboards>
-  <windows source-height='30'>
+  <windows pres-mode='true' source-height='30'>
     <window class='worksheet' name='Lower 48'>
       <cards>
         <edge name='left'>
