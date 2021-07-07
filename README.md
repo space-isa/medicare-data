@@ -9,6 +9,8 @@ Medicare provides federal health insurance to people age 65 and over, as well as
 2. Place medicare data into context with estimated 2014 state population and demographics for folks 65 and over.
 3. Place medicare data into context with estimated 2014 state poverty rates (all ages).
 
+**Tableau:**
+
 Post-processed data was used in Tableau to generate interactive vizualizations, a screenshot of which is shown below. You can view the interactive map [here](https://public.tableau.com/views/medicare-bivariate-maps/Bivariatemappovertyprescriptions?:language=en-US&:display_count=n&:origin=viz_share_link).
 
 ![A geographic map showing the rates of poverty and prescription rates. The title says "Southeastern states have the highest rates of poverty and medication prescriptions"](https://github.com/space-isa/medicare-data/blob/main/docs/figures/bivariate-map-poverty-prescriptions.png?raw=true)
