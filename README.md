@@ -27,7 +27,7 @@ Install before use:
 --- 
 
 ## How to use
-A Jupyter analysis notebook ```medicare_data_analysis.ipynb``` can be found in the ```/src``` directory. 
+A Jupyter analysis notebook ```medicare_data_analysis.ipynb``` can be found in the ```/src``` directory, or it can be viewed using [this link](https://nbviewer.jupyter.org/github/space-isa/medicare-data/blob/main/src/medicare_data_analysis.ipynb).
 
 Datasets imported by csv can be found in the ```/data/input``` directory.
 
