@@ -11,7 +11,7 @@ Medicare provides federal health insurance to people age 65 and over, as well as
 
 ![A geographic map showing the rates of poverty and prescription rates. The title says "Southeastern states have the highest rates of poverty and medication prescriptions"](https://github.com/space-isa/medicare-data/blob/main/docs/figures/bivariate-map.png?raw=true)
 
-Post-processed data was used in Tableau to generate interactive vizualizations. A screenshot of a bivariate map is shown above. 
+Post-processed data was used in Tableau to generate interactive vizualizations. View the map [here](https://public.tableau.com/views/medicare-bivariate-maps/Bivariatemappovertyprescriptions?:language=en-US&:display_count=n&:origin=viz_share_link).
 
 ---
 
