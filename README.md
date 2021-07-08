@@ -2,7 +2,7 @@
 Deep 2014 medicare analysis using BigQuery and Tableau
 
 ## About 
-Medicare provides federal health insurance to people age 65 and over, as well as to younger folks with disabilities. Medicare data from 2014 was cleaned, aggregated, and merged with US census data to gain deeper insights. The Medicare dataset found on BigQuery was provided by the Centers for Medicare & Medicade Services (CMS), and the estimated state population, population demographics, and poverty rates in 2014 came from the US Census' [website](https://www.census.gov/).
+Medicare provides federal health insurance to people age 65 and over, as well as to younger folks with disabilities. Medicare data from 2014 was cleaned, aggregated, and merged with US census data to gain deeper insights. The Medicare dataset found on BigQuery was provided by the Centers for Medicare & Medicaid Services (CMS), and the estimated state population, population demographics, and poverty rates in 2014 came from the US Census' [website](https://www.census.gov/).
 
 **Goals:**
 1. Gain insights into medicare data (inpatient, outpatient, and prescriptions) for the year 2014.
