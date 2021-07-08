@@ -612,7 +612,7 @@
         </folder>
       </_.fcp.SchemaViewerObjectModel.true...folders-common>
       <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='/Users/Isabel/Documents/My Tableau Repository/Datasources/state_med_estpop_income_2014.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='/Users/Isabel/Documents/My Tableau Repository/Datasources/state_med_estpop_income_2014.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='07/07/2021 05:31:21 PM' username='tableau_internal_user'>
           <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34' table='[Extract].[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
             <relation name='state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF' table='[Extract].[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]' type='table' />
@@ -649,6 +649,9 @@
             <map key='[Two or More Races (%)]' value='[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34].[Two or More Races (%)]' />
             <map key='[White (%)]' value='[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34].[White (%)]' />
           </cols>
+          <refresh increment-key='' incremental-updates='false'>
+            <refresh-event add-from-file-path='state_med_estpop_income_2014' increment-value='%null%' refresh-type='create' rows-inserted='103' timestamp-start='2021-07-07 17:31:21.910' />
+          </refresh>
           <metadata-records>
             <metadata-record class='column'>
               <remote-name>F1</remote-name>
@@ -662,6 +665,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>51</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Postal Code</remote-name>
@@ -676,6 +680,7 @@
               <approx-count>51</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Population over 65</remote-name>
@@ -689,6 +694,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>51</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Total discharges</remote-name>
@@ -702,6 +708,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>51</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Inpatient total payments (avg)</remote-name>
@@ -715,6 +722,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>51</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Inpatient cost per 10k</remote-name>
@@ -728,6 +736,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>51</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Total outpatient services</remote-name>
@@ -741,6 +750,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>51</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Outpatient total payments (avg)</remote-name>
@@ -754,6 +764,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>51</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Outpatient cost per 1k</remote-name>
@@ -767,6 +778,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>51</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Total prescriptions 65+ (Medicare D)</remote-name>
@@ -780,6 +792,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>51</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Total prescriptions per 100k</remote-name>
@@ -793,6 +806,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>51</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Total drug cost 65+</remote-name>
@@ -806,6 +820,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>51</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Top prescription</remote-name>
@@ -820,6 +835,7 @@
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Number of prescriptions</remote-name>
@@ -833,6 +849,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>51</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Percent of total prescriptions</remote-name>
@@ -846,6 +863,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>51</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Poverty Percent, All Ages</remote-name>
@@ -859,6 +877,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>39</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Median Household Income</remote-name>
@@ -872,6 +891,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>51</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_med_estpop_income_2014.csv_90A1F081DCF343FF925751B7D210DBFF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>F1</remote-name>
@@ -886,6 +906,7 @@
               <approx-count>52</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>State</remote-name>
@@ -900,6 +921,7 @@
               <approx-count>52</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Population over 65</remote-name>
@@ -913,6 +935,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>52</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Male (%)</remote-name>
@@ -926,6 +949,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>52</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Female (%)</remote-name>
@@ -939,6 +963,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>52</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>White (%)</remote-name>
@@ -952,6 +977,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>52</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Black (%)</remote-name>
@@ -965,6 +991,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>52</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Native American (%)</remote-name>
@@ -978,6 +1005,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>52</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Asian (%)</remote-name>
@@ -991,6 +1019,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>52</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Native Hawaiian and Pacific Islander (%)</remote-name>
@@ -1004,6 +1033,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>52</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Two or More Races (%)</remote-name>
@@ -1017,6 +1047,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>52</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Hispanic (%)</remote-name>
@@ -1030,6 +1061,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>52</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[state_data_over_65_2014.csv_41582264626A496C8881FB9312258A34]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -1037,6 +1069,17 @@
       <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='false' />
       <style>
         <style-rule element='mark'>
+          <encoding attr='color' field='[none:Calculation_706009671857913859:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;High&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Medium&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Low&quot;</bucket>
+            </map>
+          </encoding>
           <encoding attr='color' field='[none:Calculation_706009671830769666:nk]' type='palette'>
             <map to='#201277'>
               <bucket>&quot;High-High&quot;</bucket>
@@ -1067,17 +1110,6 @@
             </map>
             <map to='#e4e1f1'>
               <bucket>&quot;Low-Low&quot;</bucket>
-            </map>
-          </encoding>
-          <encoding attr='color' field='[none:Calculation_706009671857913859:nk]' type='palette'>
-            <map to='#4e79a7'>
-              <bucket>&quot;High&quot;</bucket>
-            </map>
-            <map to='#e15759'>
-              <bucket>&quot;Medium&quot;</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>&quot;Low&quot;</bucket>
             </map>
           </encoding>
           <encoding attr='color' field='[none:Calculation_706009671862513668:nk]' type='palette'>
@@ -1212,10 +1244,10 @@
     </action>
     <action caption='Filter 2 (generated)' name='[Action2_D0AEDEDE17AC43E89DCE85E1364DA2A7]'>
       <activation auto-clear='true' type='on-select' />
-      <source dashboard='Dashboard 2' type='sheet' worksheet='KY profile' />
+      <source dashboard='KY profile' type='sheet' worksheet='KY profile map' />
       <command command='tsc:tsl-filter'>
         <param name='special-fields' value='all' />
-        <param name='target' value='Dashboard 2' />
+        <param name='target' value='KY profile' />
       </command>
     </action>
   </actions>
@@ -1685,276 +1717,6 @@
       </table>
       <simple-id uuid='{B132614E-5869-45BB-9BDD-14D2B0116F61}' />
     </worksheet>
-    <worksheet name='DC'>
-      <layout-options>
-        <title>
-          <formatted-text />
-        </title>
-      </layout-options>
-      <table>
-        <view>
-          <datasources>
-            <datasource caption='state_med_estpop_income_2014' name='federated.1g26nsn0rlhz3w1gugjvj1bomph3' />
-          </datasources>
-          <mapsources>
-            <mapsource name='Tableau' />
-          </mapsources>
-          <datasource-dependencies datasource='federated.1g26nsn0rlhz3w1gugjvj1bomph3'>
-            <column datatype='real' name='[Black (%)]' role='measure' type='quantitative' />
-            <column caption='Medicare prescriptions per 100k' datatype='string' name='[Calculation_706009671829499904]' role='dimension' type='nominal'>
-              <calculation class='tableau' formula='IF [Total prescriptions per 100k] &lt; 280000&#10;THEN &apos;Low&apos;&#10;ELSEIF [Total prescriptions per 100k] &lt; 390000&#10;THEN &apos;Medium&apos;&#10;ELSEIF [Total prescriptions per 100k] &gt;= 390000&#10;THEN &apos;High&apos;&#10;END' />
-            </column>
-            <column caption='Poverty rate' datatype='string' name='[Calculation_706009671830368257]' role='dimension' type='nominal'>
-              <calculation class='tableau' formula='IF [Poverty Percent, All Ages] &lt; 13&#10;THEN &apos;Low&apos;&#10;ELSEIF [Poverty Percent, All Ages] &lt; 16&#10;THEN &apos;Medium&apos;&#10;ELSEIF [Poverty Percent, All Ages] &gt;= 16&#10;THEN &apos;High&apos;&#10;END' />
-            </column>
-            <column caption='Poverty rate -&gt; Prescriptions' datatype='string' name='[Calculation_706009671830769666]' role='dimension' type='nominal'>
-              <calculation class='tableau' formula='[Calculation_706009671830368257] + &apos;-&apos; + [Calculation_706009671829499904]' />
-            </column>
-            <column aggregation='CountD' caption='F1 (state data over 65 2014.csv)' datatype='string' name='[F1 (state_data_over_65_2014.csv)]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
-            <column datatype='real' name='[Median Household Income]' role='measure' type='quantitative' />
-            <column datatype='real' name='[Outpatient total payments (avg)]' role='measure' type='quantitative' />
-            <column datatype='string' name='[Postal Code]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
-            <column datatype='real' name='[Poverty Percent, All Ages]' role='measure' type='quantitative' />
-            <column datatype='real' name='[Total prescriptions per 100k]' role='measure' type='quantitative' />
-            <column-instance column='[Calculation_706009671830769666]' derivation='None' name='[none:Calculation_706009671830769666:nk]' pivot='key' type='nominal' />
-            <column-instance column='[F1 (state_data_over_65_2014.csv)]' derivation='None' name='[none:F1 (state_data_over_65_2014.csv):nk]' pivot='key' type='nominal' />
-            <column-instance column='[Median Household Income]' derivation='None' name='[none:Median Household Income:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Postal Code]' derivation='None' name='[none:Postal Code:nk]' pivot='key' type='nominal' />
-            <column-instance column='[Black (%)]' derivation='Sum' name='[sum:Black (%):qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Median Household Income]' derivation='Sum' name='[sum:Median Household Income:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Outpatient total payments (avg)]' derivation='Sum' name='[sum:Outpatient total payments (avg):qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Poverty Percent, All Ages]' derivation='Sum' name='[sum:Poverty Percent, All Ages:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Total prescriptions per 100k]' derivation='Sum' name='[sum:Total prescriptions per 100k:qk]' pivot='key' type='quantitative' />
-          </datasource-dependencies>
-          <filter class='categorical' column='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[Action (Medicare prescriptions per 100k,Poverty rate,Poverty rate -&gt; Prescriptions)]'>
-            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_B097B2140D3B420490D65C1FD6E982B2]' user:ui-enumeration='all' user:ui-marker='enumerate'>
-              <groupfilter function='level-members' level='[Calculation_706009671829499904]' />
-              <groupfilter function='level-members' level='[Calculation_706009671830368257]' />
-              <groupfilter function='level-members' level='[Calculation_706009671830769666]' />
-            </groupfilter>
-          </filter>
-          <filter class='categorical' column='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[Exclusions (F1 (state data over 65 2014.csv),Postal Code,Poverty rate -&gt; Prescriptions)]'>
-            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
-              <groupfilter function='crossjoin'>
-                <groupfilter function='level-members' level='[none:F1 (state_data_over_65_2014.csv):nk]' />
-                <groupfilter function='level-members' level='[none:Postal Code:nk]' />
-                <groupfilter function='level-members' level='[none:Calculation_706009671830769666:nk]' />
-              </groupfilter>
-              <groupfilter function='reorder-dimensionality'>
-                <groupfilter function='crossjoin'>
-                  <groupfilter function='member' level='[none:Calculation_706009671830769666:nk]' member='&quot;Low-Low&quot;' />
-                  <groupfilter function='crossjoin'>
-                    <groupfilter function='member' level='[none:F1 (state_data_over_65_2014.csv):nk]' member='&quot;Maryland&quot;' />
-                    <groupfilter function='member' level='[none:Postal Code:nk]' member='&quot;MD&quot;' />
-                  </groupfilter>
-                </groupfilter>
-                <order>
-                  <hierarchy name='[none:F1 (state_data_over_65_2014.csv):nk]' />
-                  <hierarchy name='[none:Postal Code:nk]' />
-                  <hierarchy name='[none:Calculation_706009671830769666:nk]' />
-                </order>
-              </groupfilter>
-            </groupfilter>
-          </filter>
-          <filter class='categorical' column='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[Inclusions (F1 (state data over 65 2014.csv),Postal Code,Poverty rate -&gt; Prescriptions)]'>
-            <groupfilter function='reorder-dimensionality' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
-              <groupfilter function='crossjoin'>
-                <groupfilter function='member' level='[none:Calculation_706009671830769666:nk]' member='&quot;High-Low&quot;' />
-                <groupfilter function='crossjoin'>
-                  <groupfilter function='member' level='[none:F1 (state_data_over_65_2014.csv):nk]' member='&quot;District of Columbia&quot;' />
-                  <groupfilter function='member' level='[none:Postal Code:nk]' member='&quot;DC&quot;' />
-                </groupfilter>
-              </groupfilter>
-              <order>
-                <hierarchy name='[none:F1 (state_data_over_65_2014.csv):nk]' />
-                <hierarchy name='[none:Postal Code:nk]' />
-                <hierarchy name='[none:Calculation_706009671830769666:nk]' />
-              </order>
-            </groupfilter>
-          </filter>
-          <filter class='quantitative' column='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[Latitude (generated)]' included-values='non-null' />
-          <filter class='quantitative' column='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[Longitude (generated)]' included-values='non-null' />
-          <filter class='quantitative' column='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[none:Median Household Income:qk]' filter-group='4' included-values='in-range-or-null'>
-            <min>39738.0</min>
-            <max>73851.0</max>
-          </filter>
-          <slices>
-            <column>[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[Inclusions (F1 (state data over 65 2014.csv),Postal Code,Poverty rate -&gt; Prescriptions)]</column>
-            <column>[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[Action (Medicare prescriptions per 100k,Poverty rate,Poverty rate -&gt; Prescriptions)]</column>
-            <column>[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[Latitude (generated)]</column>
-            <column>[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[Longitude (generated)]</column>
-            <column>[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[Exclusions (F1 (state data over 65 2014.csv),Postal Code,Poverty rate -&gt; Prescriptions)]</column>
-            <column>[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[none:Median Household Income:qk]</column>
-          </slices>
-          <aggregation value='true' />
-        </view>
-        <style>
-          <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[Longitude (generated)]' field-type='quantitative' max='71601582.343395039' min='71550287.180285096' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
-            <encoding attr='space' class='0' field='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[Latitude (generated)]' field-type='quantitative' max='4722203.2779810959' min='4690968.4265910322' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
-          </style-rule>
-          <style-rule element='cell'>
-            <format attr='font-size' field='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[none:Postal Code:nk]' value='11' />
-            <format attr='font-weight' field='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[none:Postal Code:nk]' value='bold' />
-            <format attr='color' field='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[none:Postal Code:nk]' value='#606b76' />
-            <format attr='font-family' field='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[none:Postal Code:nk]' value='Tableau Medium' />
-            <format attr='text-format' field='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[sum:Median Household Income:qk]' value='C1033%' />
-            <format attr='text-format' field='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[sum:Poverty Percent, All Ages:qk]' value='*' />
-            <format attr='text-format' data-class='subtotal' field='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[sum:Poverty Percent, All Ages:qk]' value='*' />
-          </style-rule>
-          <style-rule element='header'>
-            <format attr='border-width' data-class='total' value='0' />
-            <format attr='border-style' data-class='total' value='none' />
-          </style-rule>
-          <style-rule element='label'>
-            <format attr='font-size' field='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[none:Postal Code:nk]' value='10' />
-            <format attr='color' field='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[none:Postal Code:nk]' value='#606b76' />
-            <format attr='text-format' field='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[sum:Median Household Income:qk]' value='C1033%' />
-            <format attr='text-format' field='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[sum:Poverty Percent, All Ages:qk]' value='*' />
-          </style-rule>
-          <style-rule element='pane'>
-            <format attr='border-width' data-class='total' value='0' />
-            <format attr='border-style' data-class='total' value='none' />
-          </style-rule>
-          <style-rule element='table'>
-            <format attr='omit-on-special' field='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[none:Postal Code:nk]' value='false' />
-            <format attr='break-on-special' field='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[none:Postal Code:nk]' value='false' />
-            <format attr='show-null-value-warning' field='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[none:Postal Code:nk]' value='false' />
-          </style-rule>
-          <style-rule element='table-div'>
-            <format attr='stroke-size' scope='rows' value='0' />
-            <format attr='line-visibility' scope='rows' value='off' />
-            <format attr='stroke-size' scope='cols' value='0' />
-            <format attr='line-visibility' scope='cols' value='off' />
-          </style-rule>
-          <style-rule element='map-layer'>
-            <format attr='enabled' id='b01002_001e' value='false' />
-            <format attr='enabled' id='b01002_002e' value='false' />
-            <format attr='enabled' id='b01002_003e' value='false' />
-            <format attr='enabled' id='dp02_0001e' value='false' />
-            <format attr='enabled' id='dp02_0015e' value='false' />
-            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
-            <format attr='enabled' id='dp03_0028e' value='false' />
-            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
-            <format attr='enabled' id='dp03_0062e' value='false' />
-            <format attr='enabled' id='dp03_0088e' value='false' />
-            <format attr='enabled' id='dp04_0001e' value='false' />
-            <format attr='enabled' id='dp04_0046e' value='false' />
-            <format attr='enabled' id='dp04_0047e' value='false' />
-            <format attr='enabled' id='dp04_0089e' value='false' />
-            <format attr='enabled' id='dp05_0001e' value='false' />
-            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
-            <format attr='enabled' id='dp05_0032e' value='false' />
-            <format attr='enabled' id='dp05_0033e' value='false' />
-            <format attr='enabled' id='dp05_0034e' value='false' />
-            <format attr='enabled' id='dp05_0039e' value='false' />
-            <format attr='enabled' id='dp05_0047e' value='false' />
-            <format attr='enabled' id='dp05_0053e' value='false' />
-            <format attr='enabled' id='dp05_0066e' value='false' />
-            <format attr='enabled' id='dp05_0077e' value='false' />
-            <format attr='enabled' id='admin-0-label-5th-tier' value='false' />
-            <format attr='enabled' id='admin-0-label-4th-tier' value='false' />
-            <format attr='enabled' id='admin-0-label-3rd-tier' value='false' />
-            <format attr='enabled' id='admin-0-label-2nd-tier' value='false' />
-            <format attr='enabled' id='admin-0-label-1st-tier' value='false' />
-            <format attr='enabled' id='admin-0-boundaries-bg' value='false' />
-            <format attr='enabled' id='admin-0-boundaries' value='false' />
-            <format attr='enabled' id='admin-0-boundaries-dispute' value='false' />
-            <format attr='enabled' id='admin-1-label-9th-tier' value='false' />
-            <format attr='enabled' id='admin-1-label-8th-tier' value='false' />
-            <format attr='enabled' id='admin-1-label-7th-tier' value='false' />
-            <format attr='enabled' id='admin-1-label-6th-tier' value='false' />
-            <format attr='enabled' id='admin-1-label-5th-tier' value='false' />
-            <format attr='enabled' id='admin-1-label-4th-tier' value='false' />
-            <format attr='enabled' id='admin-1-label-3rd-tier' value='false' />
-            <format attr='enabled' id='admin-1-label-2nd-tier' value='false' />
-            <format attr='enabled' id='admin-1-label-1st-tier' value='false' />
-            <format attr='enabled' id='us-admin-1-label-abbr-3rd-tier' value='false' />
-            <format attr='enabled' id='us-admin-1-label-abbr-2nd-tier' value='false' />
-            <format attr='enabled' id='us-admin-1-label-abbr-1st-tier' value='false' />
-          </style-rule>
-          <style-rule element='map'>
-            <format attr='washout' value='1' />
-            <format attr='map-style' value='normal' />
-          </style-rule>
-          <style-rule element='map-data-layer'>
-            <format attr='palette' value='tableau-map-blue-green-light' />
-            <format attr='geo-area-type' value='Tract' />
-          </style-rule>
-        </style>
-        <panes>
-          <pane selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Multipolygon' />
-            <encodings>
-              <color column='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[none:Calculation_706009671830769666:nk]' />
-              <text column='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[none:Postal Code:nk]' />
-              <lod column='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[sum:Poverty Percent, All Ages:qk]' />
-              <lod column='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[sum:Total prescriptions per 100k:qk]' />
-              <lod column='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[sum:Median Household Income:qk]' />
-              <lod column='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[sum:Outpatient total payments (avg):qk]' />
-              <lod column='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[none:F1 (state_data_over_65_2014.csv):nk]' />
-              <lod column='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[sum:Black (%):qk]' />
-              <geometry column='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[Geometry (generated)]' />
-            </encodings>
-            <style>
-              <style-rule element='mark'>
-                <format attr='mark-labels-show' value='true' />
-                <format attr='mark-labels-cull' value='true' />
-              </style-rule>
-            </style>
-          </pane>
-        </panes>
-        <rows>[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[Latitude (generated)]</rows>
-        <cols>[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[Longitude (generated)]</cols>
-        <mark-labels>
-          <mark-label id='0'>
-            <tuple-reference>
-              <tuple-descriptor>
-                <pane-descriptor>
-                  <x-fields>
-                    <field>[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[Longitude (generated)]</field>
-                  </x-fields>
-                  <y-fields>
-                    <field>[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[Latitude (generated)]</field>
-                  </y-fields>
-                </pane-descriptor>
-                <columns>
-                  <field>[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[none:Calculation_706009671830769666:nk]</field>
-                  <field>[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[none:F1 (state_data_over_65_2014.csv):nk]</field>
-                  <field>[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[none:Postal Code:nk]</field>
-                  <field>[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[sum:Black (%):qk]</field>
-                  <field>[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[sum:Median Household Income:qk]</field>
-                  <field>[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[sum:Outpatient total payments (avg):qk]</field>
-                  <field>[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[sum:Poverty Percent, All Ages:qk]</field>
-                  <field>[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[sum:Total prescriptions per 100k:qk]</field>
-                  <field>[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[Geometry (generated)]</field>
-                  <field>[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[Latitude (generated)]</field>
-                  <field>[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[Longitude (generated)]</field>
-                </columns>
-              </tuple-descriptor>
-              <tuple>
-                <value>&quot;High-Low&quot;</value>
-                <value>&quot;District of Columbia&quot;</value>
-                <value>&quot;DC&quot;</value>
-                <value>59.067283822920977</value>
-                <value>69992.0</value>
-                <value>37787.441596659999</value>
-                <value>18.399999999999999</value>
-                <value>215380.31392221764</value>
-                <value>&quot;POLYGON((-77.1198 38.9343,-77.041 38.9956,-76.9094 38.8929,-77.0394 38.7916,-77.048 38.8413,-77.0405 38.8713,-77.1198 38.9343))&quot;</value>
-                <value>38.909999999999997</value>
-                <value>-77.0</value>
-              </tuple>
-            </tuple-reference>
-            <label-position x='0.561644' y='0.505495' />
-          </mark-label>
-        </mark-labels>
-      </table>
-      <simple-id uuid='{A4FE468F-3A3A-4862-9917-962F38C79795}' />
-    </worksheet>
     <worksheet name='HI'>
       <layout-options>
         <title>
@@ -2166,7 +1928,7 @@
       </table>
       <simple-id uuid='{9F678D57-9414-422F-B97B-1B9EFC81EE89}' />
     </worksheet>
-    <worksheet name='KY profile'>
+    <worksheet name='KY profile map'>
       <layout-options>
         <title>
           <formatted-text />
@@ -2257,8 +2019,8 @@
         </view>
         <style>
           <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[Longitude (generated)]' field-type='quantitative' max='195110577.02441975' min='189054933.45940852' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
-            <encoding attr='space' class='0' field='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[Latitude (generated)]' field-type='quantitative' max='6742331.410100786' min='2319602.8544672607' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[Longitude (generated)]' field-type='quantitative' max='191655640.10369492' min='190414461.02302426' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[Latitude (generated)]' field-type='quantitative' max='5111975.8079967285' min='4205482.8640503269' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
           </style-rule>
           <style-rule element='cell'>
             <format attr='font-size' field='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[none:Postal Code:nk]' value='11' />
@@ -2344,7 +2106,7 @@
             <format attr='enabled' id='us-admin-1-label-abbr-1st-tier' value='false' />
           </style-rule>
           <style-rule element='map'>
-            <format attr='washout' value='0.64999997615814209' />
+            <format attr='washout' value='1' />
             <format attr='map-style' value='light' />
           </style-rule>
           <style-rule element='map-data-layer'>
@@ -2724,48 +2486,6 @@
       </table>
       <simple-id uuid='{B1F3E171-80D1-4B4D-97E0-7FD2289588CB}' />
     </worksheet>
-    <worksheet name='Sheet 9'>
-      <table>
-        <view>
-          <datasources>
-            <datasource caption='state_med_estpop_income_2014' name='federated.1g26nsn0rlhz3w1gugjvj1bomph3' />
-          </datasources>
-          <datasource-dependencies datasource='federated.1g26nsn0rlhz3w1gugjvj1bomph3'>
-            <column datatype='string' name='[Postal Code]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
-            <column datatype='real' name='[Total drug cost 65+]' role='measure' type='quantitative' />
-            <column-instance column='[Postal Code]' derivation='None' name='[none:Postal Code:nk]' pivot='key' type='nominal' />
-            <column-instance column='[Total drug cost 65+]' derivation='Sum' name='[sum:Total drug cost 65+:qk]' pivot='key' type='quantitative' />
-          </datasource-dependencies>
-          <filter class='categorical' column='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[none:Postal Code:nk]' filter-group='3'>
-            <groupfilter from='&quot;AK&quot;' function='range' level='[none:Postal Code:nk]' to='&quot;WY&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
-          </filter>
-          <slices>
-            <column>[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[none:Postal Code:nk]</column>
-          </slices>
-          <aggregation value='true' />
-        </view>
-        <style />
-        <panes>
-          <pane selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Automatic' />
-            <encodings>
-              <text column='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[sum:Total drug cost 65+:qk]' />
-            </encodings>
-            <style>
-              <style-rule element='mark'>
-                <format attr='mark-labels-show' value='true' />
-              </style-rule>
-            </style>
-          </pane>
-        </panes>
-        <rows />
-        <cols />
-      </table>
-      <simple-id uuid='{E9ADCC36-4FEA-4D43-8703-147D6DA7217F}' />
-    </worksheet>
     <worksheet name='State demographics'>
       <layout-options>
         <title>
@@ -2919,8 +2639,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1600' minheight='1600' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='31' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='97916' id='30' param='vert' w='98438' x='781' y='1042'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='41' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='97916' id='40' param='vert' w='98438' x='781' y='1042'>
                 <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='15495' id='16' w='69336' x='1172' y='2734'>
                   <formatted-text>
                     <run fontname='Tableau Light' fontsize='20'>In 2014, Southern states had the</run>
@@ -3122,11 +2842,11 @@
       </devicelayouts>
       <simple-id uuid='{0B8F4072-F495-4539-BDCB-211D44CEE503}' />
     </dashboard>
-    <dashboard name='Dashboard 2'>
+    <dashboard name='KY profile'>
       <style />
       <size maxheight='768' maxwidth='1024' minheight='768' minwidth='1024' preset-index='2' sizing-mode='fixed' />
       <zones>
-        <zone h='97526' id='3' name='KY profile' w='98145' x='684' y='1302' />
+        <zone h='97526' id='3' name='KY profile map' w='98145' x='684' y='1302' />
         <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='7552' id='4' w='10547' x='88184' y='90104'>
           <formatted-text>
             <run fontalignment='2' fontcolor='#606b76' fontname='Tableau Medium' fontsize='11'>Sex</run>
@@ -3139,9 +2859,9 @@
             <run fontalignment='2' fontname='Tableau Light'>%</run>
           </formatted-text>
         </zone>
-        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='12500' id='5' w='61426' x='1855' y='25521'>
+        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='12500' id='5' w='61426' x='2051' y='22135'>
           <formatted-text>
-            <run fontsize='20'>Kentuky has...</run>
+            <run fontsize='20'>Inpatient costs per capita in Kentuky were less than the national average in 2014.</run>
           </formatted-text>
         </zone>
         <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='7161' id='6' w='36230' x='62500' y='64844'>
@@ -3175,7 +2895,7 @@
             <run fontalignment='2'>Æ&#10;</run>
           </formatted-text>
         </zone>
-        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='21484' id='8' w='30469' x='10645' y='64193'>
+        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='21484' id='8' w='30469' x='63770' y='29818'>
           <formatted-text>
             <run fontalignment='1' fontcolor='#606b76' fontsize='18'>State inpatient costs </run>
             <run fontalignment='1'>Æ&#10;</run>
@@ -3193,9 +2913,9 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='14' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='97916' id='13' param='vert' w='98438' x='781' y='1042'>
-                <zone fixed-size='280' h='97526' id='3' is-fixed='true' name='KY profile' w='98145' x='684' y='1302'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='24' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='97916' id='23' param='vert' w='98438' x='781' y='1042'>
+                <zone fixed-size='280' h='97526' id='3' is-fixed='true' name='KY profile map' w='98145' x='684' y='1302'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -3204,9 +2924,9 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='12500' id='5' w='61426' x='1855' y='25521'>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='12500' id='5' w='61426' x='2051' y='22135'>
                   <formatted-text>
-                    <run fontsize='20'>Kentuky has...</run>
+                    <run fontsize='20'>Inpatient costs per capita in Kentuky were less than the national average in 2014.</run>
                   </formatted-text>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -3216,7 +2936,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='21484' id='8' w='30469' x='10645' y='64193'>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='21484' id='8' w='30469' x='63770' y='29818'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#606b76' fontsize='18'>State inpatient costs </run>
                     <run fontalignment='1'>Æ&#10;</run>
@@ -3314,8 +3034,8 @@
       <simple-id uuid='{2AAAFF73-2D62-41AF-A9AA-8139E23769DD}' />
     </dashboard>
   </dashboards>
-  <windows pres-mode='true' source-height='30'>
-    <window class='worksheet' name='Lower 48'>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Lower 48'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -3348,71 +3068,6 @@
         <map-navigation value='1' />
       </viewpoint>
       <simple-id uuid='{A5F677A5-007B-43EA-B5E8-7D8B6A09E7D5}' />
-    </window>
-    <window class='worksheet' name='AK profile map'>
-      <cards>
-        <edge name='left'>
-          <strip size='160'>
-            <card type='pages' />
-            <card type='filters' />
-            <card type='marks' />
-          </strip>
-        </edge>
-        <edge name='top'>
-          <strip size='2147483647'>
-            <card type='columns' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='rows' />
-          </strip>
-          <strip size='31'>
-            <card type='title' />
-          </strip>
-        </edge>
-        <edge name='right'>
-          <strip size='160'>
-            <card param='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[none:Median Household Income:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
-          </strip>
-        </edge>
-      </cards>
-      <viewpoint>
-        <floating-toolbar-visibility value='2' />
-        <geo-search-visibility value='1' />
-      </viewpoint>
-      <simple-id uuid='{A96165E3-9299-491C-A825-06A7310E624E}' />
-    </window>
-    <window class='worksheet' name='KY profile'>
-      <cards>
-        <edge name='left'>
-          <strip size='259'>
-            <card type='pages' />
-            <card type='filters' />
-            <card type='marks' />
-          </strip>
-        </edge>
-        <edge name='top'>
-          <strip size='2147483647'>
-            <card type='columns' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='rows' />
-          </strip>
-          <strip size='31'>
-            <card type='title' />
-          </strip>
-        </edge>
-        <edge name='right'>
-          <strip size='160'>
-            <card pane-specification-id='0' param='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[none:Calculation_706009671862513668:nk]' type='color' />
-          </strip>
-        </edge>
-      </cards>
-      <viewpoint>
-        <floating-toolbar-visibility value='2' />
-        <geo-search-visibility value='1' />
-        <map-navigation value='1' />
-      </viewpoint>
-      <simple-id uuid='{ABC4320F-2EDB-4FFA-99F2-564D5456122F}' />
     </window>
     <window class='worksheet' name='HI'>
       <cards>
@@ -3480,34 +3135,6 @@
       </viewpoint>
       <simple-id uuid='{17E9FA3A-8C91-4386-B4B1-2188A8B6F314}' />
     </window>
-    <window class='worksheet' name='DC'>
-      <cards>
-        <edge name='left'>
-          <strip size='160'>
-            <card type='pages' />
-            <card type='filters' />
-            <card type='marks' />
-          </strip>
-        </edge>
-        <edge name='top'>
-          <strip size='2147483647'>
-            <card type='columns' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='rows' />
-          </strip>
-          <strip size='31'>
-            <card type='title' />
-          </strip>
-        </edge>
-      </cards>
-      <viewpoint>
-        <floating-toolbar-visibility value='2' />
-        <geo-search-visibility value='1' />
-        <map-navigation value='1' />
-      </viewpoint>
-      <simple-id uuid='{AD0B5446-1009-4DE5-84D2-7B4EAE4BEFD6}' />
-    </window>
     <window class='worksheet' name='Legend'>
       <cards>
         <edge name='left'>
@@ -3536,7 +3163,7 @@
       </cards>
       <simple-id uuid='{8B185D3D-C661-41D2-8E45-2FADCD324DE3}' />
     </window>
-    <window class='dashboard' maximized='true' name='Bivariate map (poverty + prescriptions)'>
+    <window class='dashboard' name='Bivariate map (poverty + prescriptions)'>
       <viewpoints>
         <viewpoint name='AK'>
           <zoom type='entire-view' />
@@ -3558,19 +3185,84 @@
           <map-navigation value='1' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='16' />
       <simple-id uuid='{08977EC4-C5A7-4FF6-9C7C-EB6A2048CE9F}' />
     </window>
-    <window class='dashboard' name='Dashboard 2'>
+    <window class='worksheet' name='AK profile map'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[none:Median Household Income:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <floating-toolbar-visibility value='2' />
+        <geo-search-visibility value='1' />
+      </viewpoint>
+      <simple-id uuid='{A96165E3-9299-491C-A825-06A7310E624E}' />
+    </window>
+    <window class='worksheet' name='KY profile map'>
+      <cards>
+        <edge name='left'>
+          <strip size='259'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[none:Calculation_706009671862513668:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <floating-toolbar-visibility value='2' />
+        <geo-search-visibility value='1' />
+        <map-navigation value='1' />
+      </viewpoint>
+      <simple-id uuid='{ABC4320F-2EDB-4FFA-99F2-564D5456122F}' />
+    </window>
+    <window class='dashboard' name='KY profile'>
       <viewpoints>
-        <viewpoint name='KY profile'>
+        <viewpoint name='KY profile map'>
           <zoom type='entire-view' />
           <floating-toolbar-visibility value='2' />
           <geo-search-visibility value='1' />
           <map-navigation value='1' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='3' />
       <simple-id uuid='{26E59F5E-D916-49F9-912D-5AD989735E36}' />
     </window>
     <window class='worksheet' name='State demographics'>
@@ -3602,34 +3294,6 @@
         </edge>
       </cards>
       <simple-id uuid='{34B67DA8-E4F1-4377-8F09-8E50B05B2B1B}' />
-    </window>
-    <window class='worksheet' name='Sheet 9'>
-      <cards>
-        <edge name='left'>
-          <strip size='160'>
-            <card type='pages' />
-            <card type='filters' />
-            <card type='marks' />
-          </strip>
-        </edge>
-        <edge name='top'>
-          <strip size='2147483647'>
-            <card type='columns' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='rows' />
-          </strip>
-          <strip size='31'>
-            <card type='title' />
-          </strip>
-        </edge>
-        <edge name='right'>
-          <strip size='160'>
-            <card param='[federated.1g26nsn0rlhz3w1gugjvj1bomph3].[none:Postal Code:nk]' type='filter' />
-          </strip>
-        </edge>
-      </cards>
-      <simple-id uuid='{09AA26AB-2051-4CC7-9F94-72F20F6FE3A2}' />
     </window>
   </windows>
 </workbook>
